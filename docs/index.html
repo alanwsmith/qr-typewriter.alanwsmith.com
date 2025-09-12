@@ -21,30 +21,47 @@
 <meta name="msapplication-config" content="/favicons/browserconfig.xml">
 <meta name="theme-color" content="#000000">
 
-<!--
-    <link rel="stylesheet" href="/styles/main.css">
--->
-
   <style>
+    html {
+      color-scheme: dark light;
+    }
     * {
       margin: 0;
     }
     body {
+      width: min(100vw - 3rem, 58ch);
+      margin-inline: auto;
+      font-family: system-ui;
       background-color: black;
       color: goldenrod;
+      max-width: 62ch;
     }
     .char {
       width: 46px;
-    }
-    .output {
-      display: flex;
-      flex-wrap: wrap;
     }
     .contentWrapper {
       min-height: 100vh;
       min-height: 100dvh;
       display: grid;
       grid-template-rows: auto 1fr auto;
+    }
+    footer {
+      max-width: 62ch;
+      text-align: center;
+      margin: 1.5rem;
+    }
+    header {
+      max-width: 62ch;
+      text-align: center;
+      margin: 1.5rem;
+    }
+    .output {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    textarea {
+      height: 6rem;
+      width: 27rem;
     }
     </style>
   </head>
@@ -54,19 +71,22 @@
   data-connection="/modules/qr-typewriter.js"
   data-send="clear">
     <header>
+        <div>QR Code Typewriter</div>
+        <div>
       made by <a href="https://www.alanwsmith.com">alan w smith</a>
       ~
       <a href="https://socials.alanwsmith.com">socials</a>
       
       ~
       <a href="https://links.alanwsmith.com">other projects</a>
+        </div>
     </header>
     <main>
   <div data-receive="update"></div>
     </main>
     <footer>
         <div>
-  <textarea data-receive="clear" data-send="update"></textarea>
+          <textarea placeholder="type here..." data-receive="clear" data-send="update"></textarea>
         </div>
       made by <a href="https://www.alanwsmith.com">alan w smith</a>
       ~

@@ -292,3 +292,47 @@
 {"timestamp":"2025-09-12T21:48:31.777546Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
 {"timestamp":"2025-09-12T21:48:36.337948Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
 {"timestamp":"2025-09-12T21:48:36.427243Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:00:14.376976Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:00:14.450808Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:00:51.823634Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:00:51.910261Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:00:52.837390Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:00:52.912223Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:01:12.114510Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:01:12.207351Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:01:49.017512Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:01:49.086318Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:02:08.879903Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:02:08.963545Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:02:16.265323Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:02:16.340707Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:02:40.497826Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:02:40.583164Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:03:24.380013Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:03:24.450935Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:03:43.504631Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:03:43.592010Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:05:30.576173Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:05:30.639709Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:05:37.710638Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:05:37.781321Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:06:14.849060Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:06:14.906526Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:06:32.255942Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:06:32.336831Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:06:38.208936Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:06:38.292467Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:07:20.368915Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:07:20.445030Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:07:47.953827Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:07:48.025324Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:45:45.153631Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:45:45.253998Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:46:08.523643Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:46:08.600100Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:46:54.925024Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:46:55.005948Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:47:03.574944Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:47:03.659798Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:50:09.570629Z","level":"INFO","fields":{"message":"Building site"},"target":"simple_site_builder::builder"}
+{"timestamp":"2025-09-12T22:50:09.662011Z","level":"INFO","fields":{"message":"Reloading browser for: http://localhost:5444/"},"target":"simple_site_builder::builder"}
