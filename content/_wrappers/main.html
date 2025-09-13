@@ -1,15 +1,19 @@
+[!- set meta_title = "QR Typewriter" -!]
+[!- set meta_description = "a experiment from alan w smith" -!]
+[!- set meta_image = "https://qr-typewriter.alanwsmith.com/images/og-image.jpg" -!]
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>QR Typewriter</title>
-<meta property="og:title" content="QR Typewriter">
-<meta property="og:description" content="a experiment from alan w smith">
-<meta name="description" content="a experiment from alan w smith">
+<title>[@ meta_title @]</title>
+<meta property="og:title" content="[@ meta_title @]">
+<meta property="og:description" content="[@ meta_description @]">
+<meta name="description" content="[@ meta_description @]">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https:&#x2f;&#x2f;qr-typewriter.alanwsmith.com&#x2f;">
-<meta property="og:image" content="https:&#x2f;&#x2f;qr-typewriter.alanwsmith.com&#x2f;images&#x2f;og-image.jpg">
+<meta property="og:url" content="[@ meta_url @]">
+<meta property="og:image" content="[@ meta_image @]">
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
@@ -86,19 +90,17 @@
         made by <a href="https://www.alanwsmith.com">alan w smith</a>
       </div>
       <div>
-        <a href="&#x2f;details&#x2f;">details</a>
+        <a href="[@ link_href @]">[@ link_text @]</a>
         ~ <a href="https://github.com/alanwsmith/qr-typewriter.alanwsmith.com">source code</a>
         ~ <a href="https://socials.alanwsmith.com">socials</a>
         ~ <a href="https://links.alanwsmith.com">projects</a>
       </div>
     </header>
     <main class="flow">
-  <div data-receive="update"></div>
+        [! block main !][! endblock !]
     </main>
     <footer class="flow">
-  <div>
-    <textarea placeholder="type here..." data-receive="clear" data-send="update"></textarea>
-  </div>
+        [! block textarea !][! endblock !]
       made by <a href="https://www.alanwsmith.com">alan w smith</a>
         ~ <a href="https://github.com/alanwsmith/qr-typewriter.alanwsmith.com">source code</a>
         ~ <a href="https://socials.alanwsmith.com">socials</a>
