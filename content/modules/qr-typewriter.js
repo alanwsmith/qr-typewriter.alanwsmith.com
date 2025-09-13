@@ -1,4 +1,8 @@
 export default class {
+  clearCodes(el, _event) {
+    el.innerHTML = "";
+  }
+
   clear(el, _event) {
     el.value = "";
   }
