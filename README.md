@@ -1,2 +1,4 @@
-# qr-typing.alanwsmith.com
-Typing in QR Codes
+# qr-typewriter.alanwsmith.com
+
+Located at: [qr-typewriter.alanwsmith.com](https://qr-typewriter.alanwsmith.com/)
+
