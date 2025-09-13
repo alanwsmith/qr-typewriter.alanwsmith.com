@@ -5,11 +5,12 @@
 
 
 [! block main !]
-  <div data-receive="update"></div>
+  <div data-receive="clearCodes|update"></div>
 [! endblock !]
 
 [! block textarea !]
   <div class="center">
     <textarea placeholder="type here..." data-receive="clear" data-send="update"></textarea>
+    <div><button data-send="clear|clearCodes">Clear</button></div>
   </div>
 [! endblock !]
