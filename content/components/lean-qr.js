@@ -465,8 +465,8 @@ class P extends HTMLElement {
         console.error("QR code rendering failed", e),
           t.getContext("2d").clearRect(0, 0, 200, 200);
       }
-      this.setAttribute("aria-label", `QR code for "${n}"`),
-        this.setAttribute("title", n),
+      this.setAttribute("aria-label", `QR code`),
+        this.setAttribute("title", "QR code"),
         this.G = c;
     }
   }
