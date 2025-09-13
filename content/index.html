@@ -1,0 +1,15 @@
+[! extends "_wrappers/main.html" !]
+[!- set meta_url = "https://qr-typewriter.alanwsmith.com/" -!]
+[!- set link_text = "details" !]
+[!- set link_href = "/details/" !]
+
+
+[! block main !]
+  <div data-receive="update"></div>
+[! endblock !]
+
+[! block textarea !]
+  <div class="center">
+    <textarea placeholder="type here..." data-receive="clear" data-send="update"></textarea>
+  </div>
+[! endblock !]
