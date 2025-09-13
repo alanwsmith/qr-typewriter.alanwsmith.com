@@ -1,6 +1,6 @@
 [!- set meta_title = "QR Typewriter" -!]
 [!- set meta_description = "a experiment from alan w smith" -!]
-[!- set meta_image = "https://qr-typewriter.alanwsmith.com/images/og-image.jpg" -!]
+[!- set meta_image = "https://qr-typewriter.alanwsmith.com/images/og-image.png" -!]
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +43,9 @@
       max-width: 56ch;
       line-height: 1.28;
     }
+    .center {
+      text-align: center;
+    }
     .char {
       width: 46px;
     }
@@ -67,14 +70,15 @@
       font-weight: 900;
       font-size: 1.2rem;
     }
-    .output {
+    .output_line {
       display: flex;
       flex-wrap: wrap;
+      margin-bottom: 30px;
     }
     textarea {
       height: 6rem;
       width: min(90vw - 3rem, 50ch);
-      margin-block: 1.8rem;
+      margin-block: 1rem;
     }
     </style>
   </head>
@@ -97,10 +101,10 @@
       </div>
     </header>
     <main class="flow">
+        [! block textarea !][! endblock !]
         [! block main !][! endblock !]
     </main>
     <footer class="flow">
-        [! block textarea !][! endblock !]
       made by <a href="https://www.alanwsmith.com">alan w smith</a>
         ~ <a href="https://github.com/alanwsmith/qr-typewriter.alanwsmith.com">source code</a>
         ~ <a href="https://socials.alanwsmith.com">socials</a>
