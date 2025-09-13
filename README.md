@@ -2,3 +2,6 @@
 
 Located at: [qr-typewriter.alanwsmith.com](https://qr-typewriter.alanwsmith.com/)
 
+More details are there.
+
+
